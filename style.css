@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(5, 26, 56);
+  padding: 15px;
+  color: white;
+  font-size: large;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  padding: 5px 180px;
+}
+
+.info {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  flex-wrap: wrap;
+}
