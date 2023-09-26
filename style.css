@@ -38,8 +38,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  flex-wrap: wrap;
+  gap: 500px;
+  margin: 0;
+  width: 100%;
 }
 
 ul {
@@ -74,4 +75,36 @@ li {
   width: 25px;
   height: 25px;
   cursor: pointer;
+}
+
+.brasileiro {
+  display: flex;
+  justify-content: space-around;
+  gap: 500px;
+  margin: 0;
+  width: 100%;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border-color: rgb(233, 230, 230);
+  border-style: solid;
+  padding: 5px 50px;
+  background-color: rgb(233, 230, 230);
+}
+
+.lupa {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.buscar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
