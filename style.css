@@ -1,14 +1,21 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@300&display=swap");
+
+* {
   margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 header {
   background-color: rgb(5, 26, 56);
-  padding: 15px;
+  padding: 5px 200px;
   color: white;
-  font-size: large;
+  font-size: medium;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logo {
@@ -33,4 +40,38 @@ header {
   align-items: center;
   width: 80%;
   flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  margin: 23px;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  padding-left: 2rem;
+}
+
+.gov {
+  width: 42px;
+  height: 42px;
+  border-radius: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.brasil {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.reino {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
 }
