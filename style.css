@@ -21,7 +21,7 @@ header {
 .logo {
   height: 120px;
   width: 120px;
-  padding: 5px 180px;
+  display: flex;
 }
 
 .info {
@@ -36,11 +36,9 @@ header {
 
 .nome {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 500px;
-  margin: 0;
-  width: 100%;
+  justify-content: space-around;
+  gap: 900px;
 }
 
 ul {
@@ -80,7 +78,7 @@ li {
 .brasileiro {
   display: flex;
   justify-content: space-around;
-  gap: 500px;
+  gap: 150px;
   margin: 0;
   width: 100%;
 }
@@ -107,4 +105,42 @@ input {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 150px;
+}
+
+.img {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+}
+
+.content__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+  width: 260px;
+  gap: 20px;
+  text-decoration: none;
+  font-family: var(--h2-font);
+  font-size: 25px;
+  color: #f2f7ff;
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 20px 40px 20px 40px;
+  background-color: rgb(5, 26, 56);
+}
+
+.end {
+  background-color: rgb(5, 26, 56);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 100px 100px;
 }
