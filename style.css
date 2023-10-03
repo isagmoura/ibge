@@ -12,7 +12,7 @@ body {
 header {
   background-color: rgb(5, 26, 56);
   padding: 5px 200px;
-  color: white;
+  color: #fff;
   font-size: medium;
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 900px;
+  gap: 1100px;
 }
 
 ul {
@@ -138,9 +138,86 @@ input {
   background-color: rgb(5, 26, 56);
 }
 
-.end {
+.footer {
   background-color: rgb(5, 26, 56);
-  color: white;
-  font-family: "Roboto", sans-serif;
+  color: #fff;
   padding: 100px 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.rodape ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.rodape ul li {
+  padding: 0;
+  font-size: 18px;
+}
+
+.texto--branco {
+  color: #fff;
+  font-weight: 700;
+}
+
+footer span {
+  margin-bottom: 8px;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  font-family: Rawline, Raleway, "Open Sans", sans-serif, Arial, Helvetica !important;
+}
+
+footer {
+  background-color: rgb(5, 26, 56);
+  padding-bottom: 40px;
+  font-size: 0.9em;
+  width: 100%;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rodape li {
+  text-decoration: none;
+  display: list-item;
+  text-align: left;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.git {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding-left: 10px;
+}
+
+.instituto {
+  margin: 0;
+  padding: 0;
+}
+
+.bandeiras {
+  padding-left: 100px;
 }
